@@ -1,0 +1,197 @@
+/* RESET global */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+ 
+* {
+  margin: 0;
+}
+ 
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin-block-end: 0;
+}
+
+
+
+/* RESPONSIVEL */
+
+
+@media (max-width: 600px) {
+  nav ul li {
+      display: block;
+      margin: 10px 0;
+  }
+
+  section {
+      flex-direction: column;
+  }
+}
+
+
+
+.header {
+  width: 1000px;
+  height: 300px;
+  background-color: #0c41f1;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+
+.sobre {
+  width: 883px;
+  height: 200px;
+  background-color:  gainsboro;
+  border: 1px solid #0817eb;
+  padding: 10px;
+}
+
+.sobre h2 {
+  font-size: 45px;
+  margin: 10px 0px 0px 0px;
+  color:#0c41f1;
+  font-family: 'Inter', sans-serif;
+}
+
+.exp {
+  width: 900px;
+  height: 500px;
+  background-color: gainsboro;
+ border: none;
+  padding: 10px;
+}
+
+#educacao{
+  width: 900px;
+  height: 500px;
+  background-color:  gainsboro;
+  border: none;
+  padding: 10px;
+ 
+}
+
+.pagina3 {
+  display: flex;
+  margin: 0px 15px 0px 0px;
+  border: 1px solid rgb(16, 20, 255);
+  overflow: hidden;
+}
+
+.pagina3 h1 {
+  color: #0c41f1;
+  font-family: 'Inter', sans-serif;
+}
+
+#int{
+  width: 800px;
+  height: 150px;
+  background-color: gainsboro;
+  border: none;
+  padding: 10px;
+}
+
+#ling{
+  width: 800px;
+  height: 150px;
+  background-color: gainsboro;
+  border: none;
+  padding: 10px;
+}
+
+#tudo {
+  display: grid;
+  place-items: center;
+  margin: 0;
+  border: 10px;
+  
+}
+
+#tudo2 {
+  margin: 0px 45px 0px 55px;
+}
+
+#caixa-baixo{
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  background-color: lightgreen;
+  border: 1px solid #000000;
+ 
+}
+
+.exp h2 {
+  font-size: 45px;
+  margin: 10px 0px 0px 0px;
+}
+.int h2 {
+  font-size: 45px;
+  margin: 10px 0px 0px 0px;
+}
+
+.conteiner{
+  display: flex;
+  margin: 0px 15px 0px 0px;
+  border: 1px solid black;
+}
+
+.conteiner h1 {
+  color: #0c41f1;
+  font-family: 'Inter', sans-serif;
+  font-size: 30px;
+}
+/* Cabeçario estilos e enfeites  */
+.foto {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 15px;
+}
+
+.foto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.foto p {
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+#nome {
+  font-size: 30px;
+  margin: 30px;
+  font-family: 'Inter', sans-serif;
+}
+ 
+#nome h1 {
+  font-size: 50px;
+}
+
+#informacao a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  
+}
+
+#informacao{
+  margin-left: 5px;
+}
+
